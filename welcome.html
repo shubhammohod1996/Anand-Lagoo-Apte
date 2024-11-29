@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900&display=swap');
+html,body {
+    font-family: 'Raleway', sans-serif;  
+}
+.thankyou-page ._header {
+    background: rgb(255, 255, 255);
+    padding: 0px -1px;
+    text-align: center;
+}
+.thankyou-page ._header .logo {
+    max-width: 200px;
+    margin: 0 auto 50px;
+}
+.thankyou-page ._header .logo img {
+    width: 100%;
+}
+.thankyou-page ._header h1 {
+    font-size: 46px;
+    font-weight: 800;
+    color: rgb(237, 100, 24);
+    margin: 0;
+}
+.thankyou-page ._body {
+    margin: -70px 0 30px;
+}
+.thankyou-page ._body ._box {
+    margin: auto;
+    max-width: 80%;
+    padding: 44px;
+    background: white;
+    border-radius: 3px;
+    box-shadow: 0 0 35px rgba(10, 10, 10, 0.12);
+    width: 435px;
+    -moz-box-shadow: 0 0 35px rgba(10, 10, 10, 0.12);
+    -webkit-box-shadow: 0 0 35px rgba(10, 10, 10, 0.12);
+}
+.thankyou-page ._body ._box h2 {
+    font-size: 32px;
+    text-align: center;
+    font-weight: 600;
+    color:  rgb(91, 54, 35);
+}
+
+.thankyou-page ._footer {
+    text-align: center;
+    padding: 50px 30px;
+}
+
+.thankyou-page ._footer .btn {
+    background: #4dbcc1;
+    color: white;
+    border: 3px solid black;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 0;
+    letter-spacing: 0.8px;
+    padding: 20px 33px;
+    text-transform: uppercase;
+}
+
+.button {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #04AA6D;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+.buttonA{
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #04AA6D;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+img.img-fluid {
+    height: 200px;
+}
+/* ========= */
+._footer {
+    text-align: center; /* Center the content */
+    padding: 20px;
+}
+
+._footer div {
+    margin-bottom: 10px; /* Add space between buttons */
+}
+
+.buttonA, .button {
+    display: inline-block; /* Display the buttons inline-block */
+    width: 100%; /* Full width on small devices */
+    max-width: 200px; /* Limit max width on larger screens */
+    padding: 10px 20px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    background-color: rgb(237, 100, 24); /* Background color for buttons */
+    color: black; /* Text color */
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.buttonA:hover, .button:hover {
+    background-color: darkorange; /* Change color on hover */
+}
+
+@media (min-width: 768px) {
+    .buttonA, .button {
+        width: auto; /* Change to auto for larger screens */
+    }
+}
+
+</style>
+
+
+<body>
+    <div class="thankyou-page">
+        <div class="_header">
+            <div class="text-center mb-3" id="anand">
+                <img src="LA Images/Anand Main Logo.png" alt="Anand Logo" class="img-fluid">
+              </div>
+            <!-- <div class="logo">
+                <img src="la" alt="">
+            </div> -->
+            <h1>Thank You!</h1>
+        </div>
+        <div class="_body">
+            <div class="_box ">
+                <h2>
+                    <strong>Thank you for contacting us!</strong>
+                </h2>
+                <p style="text-align: center;">
+                    We will get back to you soon...
+                </p>
+            </div>
+        </div>
+        <div class="_footer">
+            <!-- Brochure Download Button -->
+            <div>
+                <a class="buttonA" id="downloadBrochureBtn" href="LA Images/AMK-R5-Brouchure-29-01-2024.pdf" download="brochure.pdf">Download Brochure</a>
+            </div>
+            
+            <!-- Back to Homepage Button -->
+            <div>
+                <a class="button" href="https://anand.lagooapte.com/">Back to homepage</a>
+            </div>
+        </div>
+        
+         
+    </div>
+</body>
+</html>
